@@ -1,4 +1,7 @@
-package com.jc.demo.ampq.basic;
+package com.jc.demo.ampq.config;
+
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 import org.springframework.amqp.core.AmqpAdmin;
 import org.springframework.amqp.core.Queue;
@@ -13,6 +16,7 @@ import org.springframework.context.annotation.Configuration;
 public class RabbitConfig {
 	
 	protected final String QUEUE_NAME = "spring.rabbit.queue";
+	protected static Lock lock = new ReentrantLock();
 	
 	@Bean
 	public ConnectionFactory connectionFactory(){

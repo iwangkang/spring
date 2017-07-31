@@ -4,6 +4,8 @@ import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import com.jc.demo.ampq.config.RabbitConfig;
+
 public class Send {
 	
 	public static void main(String[] args) {
