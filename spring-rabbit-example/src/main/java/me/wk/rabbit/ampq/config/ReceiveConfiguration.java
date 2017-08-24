@@ -1,4 +1,4 @@
-package com.jc.demo.ampq.config;
+package me.wk.rabbit.ampq.config;
 
 import org.springframework.amqp.core.ReceiveAndReplyCallback;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;

@@ -1,4 +1,4 @@
-package com.jc.demo.ampq.config;
+package me.wk.rabbit.ampq.config;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

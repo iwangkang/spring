@@ -1,8 +1,8 @@
-package com.jc.demo.ampq.basic.async;
+package me.wk.rabbit.ampq.basic.async;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.jc.demo.ampq.config.SendConfiguration;
+import me.wk.rabbit.ampq.config.SendConfiguration;
 
 public class Send {
 
