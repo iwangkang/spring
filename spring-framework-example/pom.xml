@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>me.wangkang</groupId>
+  <artifactId>spring-framework-example</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>spring-framework-example</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <modules>
+  	<module>spring-aop-example</module>
+  	<module>spring-aspects-example</module>
+  	<module>spring-beans-example</module>
+  	<module>spring-context-indexer-example</module>
+  	<module>spring-context-support-example</module>
+  	<module>spring-context-example</module>
+  	<module>spring-core-example</module>
+  	<module>spring-expression-example</module>
+  	<module>spring-framework-bom-example</module>
+  	<module>spring-instrument-example</module>
+  	<module>spring-jcl-example</module>
+  	<module>spring-jdbc-example</module>
+  	<module>spring-jms-example</module>
+  	<module>spring-messaging-example</module>
+  	<module>spring-orm-example</module>
+  	<module>spring-oxm-example</module>
+  	<module>spring-test-example</module>
+  	<module>spring-tx-example</module>
+  	<module>spring-web-example</module>
+  	<module>spring-webflux-example</module>
+  	<module>spring-webmvc-example</module>
+  	<module>spring-websocket-example</module>
+  </modules>
+</project>
