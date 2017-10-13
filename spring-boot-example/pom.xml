@@ -17,5 +17,6 @@
 	<modules>
 		<module>spring-boot-sample-amqp</module>
 		<module>Chapter-1</module>
+		<module>Chapter-2-1-1</module>
 	</modules>
 </project>
