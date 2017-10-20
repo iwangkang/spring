@@ -41,7 +41,7 @@
 	        return new Docket(DocumentationType.SWAGGER_2)
 	                .apiInfo(apiInfo())
 	                .select()
-	                .apis(RequestHandlerSelectors.basePackage("com.didispace.web"))
+	                .apis(RequestHandlerSelectors.basePackage("me.wangkang.springboot.course.Chapter3_1_5.web"))
 	                .paths(PathSelectors.any())
 	                .build();
 	    }

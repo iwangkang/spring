@@ -78,7 +78,7 @@ Spring Boot的主要优点：
 	
 ### 编写HelloWorld服务
 
-1.创建package命名为com.didispace.web（根据实际情况修改）
+1.创建package命名为me.wangkang.springboot.course.Chapter1.web（根据实际情况修改）
 2.创建HelloController类，内容如下  
 
 	@RestController

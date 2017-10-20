@@ -90,7 +90,7 @@
 	@EnableJpaRepositories(
 	        entityManagerFactoryRef="entityManagerFactoryPrimary",
 	        transactionManagerRef="transactionManagerPrimary",
-	        basePackages= { "com.didispace.domain.p" }) //设置Repository所在位置
+	        basePackages= { "me.wangkang.springboot.course.Chapter3_2_3.domain.p" }) //设置Repository所在位置
 	public class PrimaryConfig {
 	    @Autowired @Qualifier("primaryDataSource")
 	    private DataSource primaryDataSource;
@@ -105,7 +105,7 @@
 	        return builder
 	                .dataSource(primaryDataSource)
 	                .properties(getVendorProperties(primaryDataSource))
-	                .packages("com.didispace.domain.p") //设置实体类所在位置
+	                .packages("me.wangkang.springboot.course.Chapter3_2_3.domain.p") //设置实体类所在位置
 	                .persistenceUnit("primaryPersistenceUnit")
 	                .build();
 	    }
@@ -128,7 +128,7 @@
 	@EnableJpaRepositories(
 	        entityManagerFactoryRef="entityManagerFactorySecondary",
 	        transactionManagerRef="transactionManagerSecondary",
-	        basePackages= { "com.didispace.domain.s" }) //设置Repository所在位置
+	        basePackages= { "me.wangkang.springboot.course.Chapter3_2_3.domain.s" }) //设置Repository所在位置
 	public class SecondaryConfig {
 	    @Autowired @Qualifier("secondaryDataSource")
 	    private DataSource secondaryDataSource;
@@ -141,7 +141,7 @@
 	        return builder
 	                .dataSource(secondaryDataSource)
 	                .properties(getVendorProperties(secondaryDataSource))
-	                .packages("com.didispace.domain.s") //设置实体类所在位置
+	                .packages("me.wangkang.springboot.course.Chapter3_2_3.domain.s") //设置实体类所在位置
 	                .persistenceUnit("secondaryPersistenceUnit")
 	                .build();
 	    }
@@ -156,7 +156,7 @@
 	    }
 	}
 	
-完成了以上配置之后，主数据源的实体和数据访问对象位于：com.didispace.domain.p，次数据源的实体和数据访问接口位于：com.didispace.domain.s。  
+完成了以上配置之后，主数据源的实体和数据访问对象位于：me.wangkang.springboot.course.Chapter3_2_3.domain.p，次数据源的实体和数据访问接口位于：me.wangkang.springboot.course.Chapter3_2_3.domain.s。  
 
 分别在这两个package下创建各自的实体和数据访问接口  
 
