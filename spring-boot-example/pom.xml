@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>me.wangkang.spring</groupId>
-	<artifactId>spring-boot-example</artifactId>
+	<artifactId>spring-boot-package</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
