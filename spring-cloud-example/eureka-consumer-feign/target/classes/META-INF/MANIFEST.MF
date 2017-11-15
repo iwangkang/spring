@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: eureka-consumer-feign
+Implementation-Version: 1.0.0
+Built-By: Administrator
+Implementation-Vendor-Id: me.wangkang.springcloud.dalston.course
+Build-Jdk: 1.8.0_131
+Implementation-URL: http://projects.spring.io/spring-boot/eureka-consu
+ mer-feign/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

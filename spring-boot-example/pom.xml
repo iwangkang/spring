@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>me.wangkang</groupId>
+	<groupId>me.wangkang.spring</groupId>
 	<artifactId>spring-boot-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
@@ -15,7 +15,6 @@
 	</properties>
 
 	<modules>
-		<module>spring-boot-sample-amqp</module>
 		<module>Chapter1</module>
 		<module>Chapter2-1-1</module>
 		<module>Chapter3-1-1</module>
